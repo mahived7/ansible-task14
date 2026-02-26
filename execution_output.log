@@ -1,0 +1,24 @@
+
+PLAY [Task 14 - Configuration Management] **************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Update apt cache] ********************************************************
+ok: [localhost]
+
+TASK [Install packages] ********************************************************
+ok: [localhost]
+
+TASK [Ensure nginx is started] *************************************************
+ok: [localhost]
+
+TASK [Create a config file] ****************************************************
+changed: [localhost]
+
+RUNNING HANDLER [Reload Nginx] *************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=6    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
